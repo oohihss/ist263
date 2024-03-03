@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More CSS</title>
+    <style>
+        h2 {background-color: #4278f5;}
+        /* from now on use heximal, no color names */
+        a {color: #0000ff;}
+        a:hover {color: red;}
+        /* above is a psuedo selector, hover is when mouse rolls over */
+        body {background-color: #42f5bf;
+            background-image: url("otto.jpeg");
+            /* background can be entire page or just one smaller element */
+        }
+        .bgclass{
+            background-image: url("otto2.jpeg")
+        }
+        .second {background-color: #efefef;
+                border: 1px solid black;
+                padding: 30px; /* inside the box space (padding) */
+                margin: 30px;} /* outside the box space (margin) */
+
+    </style>
+</head>
+<body>
+    <h1>More CSS</h1>
+        <h2>Hexadecimal Colors</h2>
+        <h2>Pseudo selectors</h2>
+            <a href="http://www.google.com">Google</a><br>
+            <a href="http://www.amazon.com">Amazon</a>
+        <h2>Backgrounds</h2>
+            <p class="bgclass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repudiandae accusantium esse commodi! Nam dolorum nostrum, in illum itaque nisi mollitia porro quod vero, explicabo rem iste sapiente architecto consequuntur?</p>
+        <h2>Box Model</h2>
+            <p class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eius natus nobis aspernatur, magni voluptatem, quidem saepe voluptatibus repellat reprehenderit autem molestiae quis soluta sed illum rem quae accusamus laborum!</p>
+</body>
+</html>

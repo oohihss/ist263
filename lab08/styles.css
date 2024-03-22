@@ -1,0 +1,16 @@
+h1, h2, h3{color: #427bf5;}
+td, th {border: 1px solid #000000;}
+.evenrow{
+    color: black;
+    background-color: #ffe4ff;
+}
+body{background-color: #F5F5DC;}
+p, ul, label, tr, th, caption{color: #f57542;}
+nav a{color: #7825e6;} 
+nav a:hover{background-color: #3271a8;} 
+nav {padding: 10px;}
+nav{margin-bottom: 30px;}
+.quote, .email, .logo {float: right;}
+.part1 {display: flex;}
+.part1 {padding: 20px;}
+.part1 {flex: 2; order: 3; background-color: #cce5ff; border-radius: 1em;}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animate2.css">
+    <script>
+         function WinnerMessage () {
+        alert('you won!');
+        }
+        function TryAgain () {
+        alert('Wrong Shell - Try Again');
+        }
+    </script>
+    <style>
+        .container{
+            display: flex;}
+        #first{order: 1;}
+        #second{order: 2;}
+        #third{order: 3;}
+    
+    </style>
+</head>
+<bod onload="ShuffleShells();">
+    <h1>Choose a Walnut</h1>
+<div class="container">
+    <img src="../images/walnut.png" alt="first walnut" id="first" class="first" onclick="WinnerMessage();"> 
+    <img src="../images/walnut.png" alt="second walnut" id="second" class="second" onclick="TryAgain();">
+    <img src="../images/walnut.png" alt="third walnut" id="third" class="third" onclick="TryAgain();">
+    <div id="messages"></div>
+</div>
+</bod>
+</html>

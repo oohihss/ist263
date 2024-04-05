@@ -1,0 +1,48 @@
+.address{border-style: solid;
+         border-radius: 0%;
+         text-align: center;
+         margin: 80px;
+         background-color: #61b6f2;  
+}
+.part1{display: flex;
+justify-content: space-around;
+max-width: 100%;
+margin-top: 0px;
+margin: 80px;
+justify-content: space-around;
+margin-bottom: 90px;
+}
+.email{border-style: solid;
+    border-radius: 0%;
+    text-align: center;
+    flex: 1;
+    padding: 50px;
+    max-width: 45%;
+    margin-right: 10px;
+    background-color: #61b6f2;
+}
+.linkedin{
+    border-style: solid;
+    border-radius: 0%;
+    text-align: center;
+    flex: 1;
+    padding: 50px;
+    max-width: 45%;
+    margin-left: 50px;
+    background-color: #61b6f2;
+
+}
+nav{margin: 40px;
+    margin-right: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    float: right;
+}
+h1{margin: 70px 90px;}
+body{background-color: #f59d5b;}
+.part2{border-style: solid;
+    text-align: center;
+    margin: 80px;
+    padding: 20px 20px;
+    background-color: #61b6f2;
+}

@@ -1,21 +1,21 @@
 .head{display: flex;
       border-style: solid;
-      margin: 40px;
-      padding: 30px;
+      margin: 40px 40px 10px 40px;
+      padding: 50px;
       justify-content: space-between;
       background-image: url(holy.jpeg);
-      min-height: 350px;
-      background-position: top;
+      min-height: 200px;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
     }
-
 .headtwo{display: flex;
          border-style: solid;
          margin: 40px;
+         margin-bottom: 0px;
          padding: 30px;
+         min-height: 320px;
          background-image: url(holy.jpeg);
-         min-height: 350px;
          background-position: bottom;
          background-repeat: no-repeat;
          background-size: cover;
@@ -34,10 +34,37 @@
 .topnav a {
     float: left;
     display: block;
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px; 
   }
+.intro{display: flex;
+       padding: 50px;
+       padding-top: 0px;
+       margin: 40px;
+       margin-bottom: 0px;
+       text-align: center;
+       font-size: 1.5em;
+}
+div{font-family: 'Times New Roman', Times, serif;}
+.headthree{text-align: center;
+           font-size: 1.5em;
+}
+.currenttrends{display: flex;
+}
+.gq, .sg, .vogue {
+    margin: 40px;
+    margin-top: 0px;
+    padding: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-style: solid;
+    font-size: 1.3em;
+    max-width: 30%;
+}
+.gq img, .sg img, .vogue img{max-width: 100%;
+max-height: 70%;}
+body{background-color: #000000;}

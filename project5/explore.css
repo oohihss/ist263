@@ -1,5 +1,9 @@
-nav{margin: 40px;
-    margin-right: 90px;
+.nav a{margin: 5px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;}
+    font-size: 1.5em;
+    flex: 2;
+}
+
 .brands{text-align: center;}
+span {justify-content: space-around;
+padding: 20px;}

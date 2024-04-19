@@ -6,9 +6,9 @@ td, th {border: 1px solid #000000;}
 }
 body{background-color: #F5F5DC;}
 p, ul, label, tr, th, caption{color: #e60000;}
-nav a{color: #4a86e8;} 
+nav a{color: #000099;} 
 nav a:hover{background-color: #3271a8;} 
-.navigation{background-color: #00ffff}
+.navigation{background-color: #00ffff;}
 nav {padding: 10px;}
 nav{margin-bottom: 30px;}
 .quote, .logo {float: right;}

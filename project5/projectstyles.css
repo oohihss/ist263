@@ -89,3 +89,12 @@ max-height: 70%;}
 .sg{background-color: #80d2f2;}
 .vogue{background-color: #48c8fa;}
 
+.overview{
+  padding-top: 5%;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

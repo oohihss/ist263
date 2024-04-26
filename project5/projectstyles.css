@@ -32,6 +32,10 @@
 
 .topnav {
    padding-top: 20px;
+   font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   }
   
 .topnav a {
@@ -55,6 +59,10 @@
 div{font-family: 'Times New Roman', Times, serif;}
 .headthree{text-align: center;
            font-size: 1.5em;
+           font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 .currenttrends{display: flex;
     padding: 30px;

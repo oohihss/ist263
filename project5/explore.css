@@ -1,3 +1,4 @@
+body{background-color: #f2e2bb;}
 .nav a{margin: 5px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
@@ -8,7 +9,27 @@ h1{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
 }
 .brands{text-align: center;}
 span {justify-content: space-around;
 padding: 20px;}
+
+.pa, .stussy, .cw, .sup, .hm, .zara, .jc, .uo{
+    display: flex;
+    border: solid;
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin-left: 400px;
+    margin-bottom: 35px;
+    background-color: #f2e2bb;
+}
+
+.shop{
+    display: flex;
+    border: solid;
+    display: block;
+    font-size: 25px;
+}
+

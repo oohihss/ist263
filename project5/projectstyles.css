@@ -46,10 +46,10 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px; 
+    font-size: 25px; 
     font-family: "Platypi", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   }
 .intro{display: flex;
@@ -61,8 +61,9 @@
        font-size: 1.5em;
 }
 div{font-family: 'Times New Roman', Times, serif;}
+
 .headthree{text-align: center;
-           font-size: 1.5em;
+           font-size: 30px;
            font-family: "Platypi", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -91,7 +92,7 @@ max-height: 70%;}
 
 .overview{
   padding-top: 5%;
-  font-size: 1.5em;
+  font-size: 30px;
   text-align: center;
   font-family: "Platypi", serif;
   font-optical-sizing: auto;

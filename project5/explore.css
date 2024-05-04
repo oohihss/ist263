@@ -1,16 +1,24 @@
-body{background-color: #f2e2bb;}
+body{background-color: #87bdd8;}
+
+nav{margin-bottom: 9%;}
 
 .nav a{margin: 5px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
     flex: 2;
+    color: #674d3c;
+    font-size: 80px;
+    font-weight: 700;
+    padding-left: 80px;
 }
 h1{
     font-family: "Platypi", serif;
     font-optical-sizing: auto;
+    font-size: 60px;
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    color: #622569;
 }
 .brands{text-align: center;}
 span {justify-content: space-around;
@@ -24,7 +32,8 @@ padding: 20px;}
     display: block;
     margin-left: 400px;
     margin-bottom: 35px;
-    background-color: #f2e2bb;
+    background-color: #b7d7e8;
+    font-size: 20px;
 }
 
 .shop{

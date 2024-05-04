@@ -1,8 +1,14 @@
-.address{border-style: solid;
+.workaddress{border-style: solid;
          border-radius: 0%;
          text-align: center;
          margin: 80px;
-         background-color: #61b6f2;  
+         background-color: #f7786b;
+}
+.homeaddress{border-style: solid;
+    border-radius: 0%;
+    text-align: center;
+    margin: 80px;
+    background-color: #f7cac9;  
 }
 .part1{display: flex;
 justify-content: space-around;
@@ -19,7 +25,7 @@ margin-bottom: 90px;
     padding: 50px;
     max-width: 45%;
     margin-right: 10px;
-    background-color: #61b6f2;
+    background-color: #92a8d1;
 }
 .linkedin{
     border-style: solid;
@@ -29,24 +35,41 @@ margin-bottom: 90px;
     padding: 50px;
     max-width: 45%;
     margin-left: 50px;
-    background-color: #61b6f2;
+    background-color: #92a8d1;
 
 }
 nav{margin: 40px;
     margin-right: 90px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 1.75em;
     float: right;
+}
+nav a{
+    color: #f7786b;
 }
 h1{margin: 70px 90px;
     font-family: "Platypi", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;}
-body{background-color: #f59d5b;}
+    font-weight: 500;
+    font-size: 2em;
+    color: #f7786b;
+}
+body{background-color: #034f84;}
+
 .part2{border-style: solid;
     text-align: center;
     margin: 80px;
     padding: 20px 20px;
-    background-color: #61b6f2;
+    background-color: #f7786b;
+}
+
+.part3{border-style: solid;
+    text-align: center;
+    margin: 80px;
+    padding: 20px 20px;
+    background-color: #f7cac9;
+}
+
+.addy{
+    font-size: 17px;
 }

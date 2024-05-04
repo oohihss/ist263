@@ -1,24 +1,23 @@
-body{background-color: #87bdd8;}
+body{background-color: #003366;}
 
-nav{margin-bottom: 9%;}
-
-.nav a{margin: 5px;
+nav{margin-top: 25px;
+    margin-right: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    flex: 2;
-    color: #674d3c;
-    font-size: 80px;
+    font-size: 1.75em;
+    float: right;
     font-weight: 700;
-    padding-left: 80px;
+    
 }
+.nav a{color: #FFF8DC;}
+
 h1{
     font-family: "Platypi", serif;
     font-optical-sizing: auto;
     font-size: 60px;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-    color: #622569;
+    color: #FFF8DC;
+    margin-left: 500px;
 }
 .brands{text-align: center;}
 span {justify-content: space-around;
@@ -30,10 +29,11 @@ padding: 20px;}
     width: 500px;
     text-align: center;
     display: block;
-    margin-left: 400px;
+    margin-left: 500px;
     margin-bottom: 35px;
     background-color: #b7d7e8;
     font-size: 20px;
+    color: #834C24;
 }
 
 .shop{
@@ -41,5 +41,10 @@ padding: 20px;}
     border: solid;
     display: block;
     font-size: 25px;
+    font-weight: 500px;
 }
 
+aside{
+    text-align: left;
+    margin-top: 15px;
+}

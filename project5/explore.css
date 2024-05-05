@@ -17,7 +17,6 @@ h1{
     font-weight: 400;
     font-style: normal;
     color: #FFF8DC;
-    margin-left: 500px;
 }
 .brands{text-align: center;}
 span {justify-content: space-around;
@@ -26,10 +25,8 @@ padding: 20px;}
 .pa, .stussy, .cw, .sup, .hm, .zara, .jc, .uo{
     display: flex;
     border: solid;
-    width: 500px;
     text-align: center;
     display: block;
-    margin-left: 500px;
     margin-bottom: 35px;
     background-color: #b7d7e8;
     font-size: 20px;

@@ -1,7 +1,6 @@
 .workaddress{border-style: solid;
          border-radius: 0%;
          text-align: center;
-         margin: 80px;
          background-color: #f7786b;
 }
 .homeaddress{border-style: solid;
@@ -23,7 +22,6 @@ margin-bottom: 90px;
     text-align: center;
     flex: 1;
     padding: 50px;
-    max-width: 45%;
     margin-right: 10px;
     background-color: #92a8d1;
 }
@@ -33,13 +31,11 @@ margin-bottom: 90px;
     text-align: center;
     flex: 1;
     padding: 50px;
-    max-width: 45%;
     margin-left: 50px;
     background-color: #92a8d1;
 
 }
 nav{margin: 40px;
-    margin-right: 90px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.75em;
     float: right;
@@ -59,15 +55,12 @@ body{background-color: #034f84;}
 
 .part2{border-style: solid;
     text-align: center;
-    margin: 80px;
-    padding: 20px 20px;
+    
     background-color: #f7786b;
 }
 
 .part3{border-style: solid;
     text-align: center;
-    margin: 80px;
-    padding: 20px 20px;
     background-color: #f7cac9;
 }
 
